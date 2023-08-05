@@ -1,0 +1,122 @@
+body {
+  font-family: "Athiti", Tahoma, Loma;
+}
+
+.text-inline {
+  display: inline;
+}
+
+dl {
+  margin-left: 42px;
+  font-size: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  display: block;
+  margin-left: 40px;
+}
+
+a.file_link {
+  font-size: 20px;
+  color: black;
+  display: inline;
+}
+
+.link_clickhere {
+  font-size: 15px;
+  color: red;
+  display: inline;
+}
+
+.clipe_success {
+  font-size: 21px; 
+  color:#5BDF1D;
+
+}
+/* .heading_h {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Bai Jamjuree', sans-serif;
+} */
+.subheading {
+  /* font-weight: bold;
+  font-family: 'Bai Jamjuree', sans-serif; */
+  font-size: 25px;
+  color: black;
+}
+
+hr.ruler_hr {
+  background-color: #430b5e;
+  animation: zoom 5s ease;
+  opacity: 100%;
+}
+
+.text-gray {
+  color: gray;
+}
+
+hr.line{
+  border: 1px solid #430b5e;
+}
+i.paperclip-gray{
+  font-size: 21px; color:gray;
+}
+i.paperclip-success{
+  font-size: 21px; color:#5BDF1D;
+}
+/* img.gallery {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+  width: 243px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-group-flush .list-group-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.padding_header{
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+} */

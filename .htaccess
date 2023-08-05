@@ -1,0 +1,64 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{DOCUMENT_ROOT} !-f 
+
+#RewriteRule ^process_login?$ secure/process_login.php [QSA,L]
+
+RewriteRule ^home?$ backend/home.php
+
+#RewriteRule ^user/list_user?$ backend/admin/tb_user.php [QSA,L]
+
+RewriteRule ^user/all_user?$ backend/user/tb_user.php [QSA,L]
+
+RewriteRule ^user/registration?$ backend/user/frm_registered.php [QSA,L]
+
+RewriteRule ^user/list_user?$ backend/user/list_user.php [QSA,L]
+
+RewriteRule ^user/update_profile?$ backend/user/frm_update_profile.php [QSA,L]
+
+RewriteRule ^user/dean-registration?$ backend/user/frm_insert_dean.php [QSA,L]
+
+RewriteRule ^admin/list_admin?$ backend/admin/tb_admin.php [QSA,L]
+
+RewriteRule ^user/change_password?$ backend/user/frm_change_password.php [QSA,L]
+
+RewriteRule ^dean/insert_dean?$ backend/admin/frm_insert_dean.php [QSA,L]
+
+RewriteRule ^setting/tb_project_type?$ backend/setting/project_type/tb_project_type.php [QSA,L]
+
+RewriteRule ^setting/tb_respon?$ backend/setting/respon/tb_respon.php [QSA,L]
+
+RewriteRule ^setting/tb_place?$ backend/setting/place/tb_place.php [QSA,L]
+
+RewriteRule ^years/([0-9]+) backend/years/details_years.php?y_id=$1
+
+RewriteRule ^([0-9]+)/agenda backend/agenda/tb_agenda.php?y_id=$1
+
+#RewriteRule ^agenda/frm_insert_agenda backend/agenda/frm_insert_agenda.php
+
+RewriteRule ^agenda/([0-9]+) backend/agenda/details_agenda.php?agd_id=$1
+
+RewriteRule ^([0-9]+)/project backend/project/tb_project.php?y_id=$1 [L]
+
+RewriteRule ^project/([0-9]+) backend/project/process.php?pro_id=$1 [L]
+
+RewriteRule ^project/write_project backend/project/write_pro/show_file_wpt.php [L]
+
+RewriteRule ^project/approve_project backend/project/approve_pro/show_file_alt.php  [L]
+
+RewriteRule ^project/appoint_project backend/project/appoint_pro/show_file_apt.php [L]
+
+RewriteRule ^project/attendees backend/project/attendees/show_file_lat.php [L]
+
+RewriteRule ^project/other backend/project/other/show_file_oth.php [L]
+
+RewriteRule ^project/project_book backend/project/project_book/show_file_pbk.php [L]
+
+RewriteRule ^project/complete_letter backend/project/complete_letter/show_file_clt.php [L]
+
+#RewriteRule ^project/check_project/([0-9a-zA-Z]+)$  backend/project/check_project/chk_password.php?chk=$1  [L]
+
+RewriteRule ^([0-9]+)/summary?$ backend/summary/summary.php?y_id=$1 [L]
+
+
+

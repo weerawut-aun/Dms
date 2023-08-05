@@ -1,0 +1,8 @@
+#Option +FollwSymlinks
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^backend home.php [NC,L]
+
+
+##RewriteRule ^/backend/agenda/([0-9a-zA-Z]+)$ /backend/agenda/tb_agenda.php?y_id=$1 [L]
